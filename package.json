@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-dummy",
+  "version": "1.0.0",
+  "description": "Just a tailwind practice folder",
+  "license": "ISC",
+  "author": "Saad",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./input.css -o ./css/style.css",
+    "watch": "npx @tailwindcss/cli -i ./input.css -o ./css/style.css --watch",
+    "serve": "browser-sync start --server --files '*.html, css/*.css'",
+    "dev": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18"
+  }
+}
