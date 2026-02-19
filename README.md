@@ -10,7 +10,7 @@ This project focuses on clean UI design, responsive layouts, and utility-first s
 
 (Link will be here after deployment)
 
-<!-- [Live Demo](https://) -->
+[Live Demo](https://loopstudiostailwindui.netlify.app)
 
 ---
 
